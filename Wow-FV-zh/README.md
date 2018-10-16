@@ -19,6 +19,7 @@
 
 不足：
 
++ `data Maybe a = Just a | Nothing` -> `data Maybe a = Nothing | Just a` (P8)
 + Universe Polymorphism 可能日后会自动 Generalize (P13)
 + 没有说明 `Setω` (P16)
 + 没有说清楚为什么少生成了一个模式匹配 (P27)
